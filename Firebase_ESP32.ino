@@ -48,7 +48,7 @@ unsigned long sendDataPrevMillis = 0;
 void setup()
 {
   pinMode(LED_PIN, OUTPUT);
-  pinMode(LED_PIN, INPUT);
+  pinMode(PHOTORESISTOR_PIN, INPUT);
 
   Serial.begin(115200);
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
